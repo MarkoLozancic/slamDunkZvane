@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0122979-352D-2C0F-1B45-688CA7A44CFA" name="Naruceni artikl">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:48:52 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAK</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="narucena_kolicina" id="B9DB7270-6EF7-31A0-E93F-64231D1E19F4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:00:53 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isporucena_kolicina" id="41368A24-9EA7-97F4-EE70-8B31BDF0EA4C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:01:13 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Narudzba_ID" id="9E1BDEA4-B9AE-F7FF-7442-66394A1BFEDC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:25:51 UTC</createdTime>
+<generatorID>191DCD14-D7DF-110C-A8C4-7FD04D2BF256</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>93C4E9C6-2AE7-EF53-B508-182C4BE09879</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kupac_ID" id="7D85B8C3-8EC6-F847-6B37-B65FFF4D4275">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:25:51 UTC</createdTime>
+<generatorID>191DCD14-D7DF-110C-A8C4-7FD04D2BF256</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>006B6DCE-FBD6-F548-5F3F-C69288EB2BDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artikl_ID" id="7EB49CE9-B9C0-E4C0-93EF-E51A08928C4A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:26:20 UTC</createdTime>
+<generatorID>EF362214-5DC7-51D4-D3AE-24C2FF30D540</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A9FD922-C77E-D9F7-F31F-525920343607" name="Naruceni artikl PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:25:51 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E1BDEA4-B9AE-F7FF-7442-66394A1BFEDC</attributeRef>
+<attributeRef>7D85B8C3-8EC6-F847-6B37-B65FFF4D4275</attributeRef>
+<attributeRef>7EB49CE9-B9C0-E4C0-93EF-E51A08928C4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
